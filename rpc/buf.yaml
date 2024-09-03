@@ -1,4 +1,10 @@
-version: v1beta1
+version: v2
+deps:
+- buf.build/googleapis/googleapis
+modules:
+  - path: .
+    # TODO: once we have our org account change this with arduino
+    name: buf.build/alessio/arduino-cli
 lint:
   ignore:
     - google
